@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: santak
-    src: url(../fonts/santakkum.ttf);
+    src: url("../fonts/santakkum.ttf");
 }
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
