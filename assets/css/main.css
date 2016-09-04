@@ -19,8 +19,12 @@
 	}
 
 @font-face {
-    font-family: santak
-    src: url("../fonts/santakkum.ttf");
+    font-family: 'santakkumregular';
+    src: url('santakkum_0-webfont.woff2') format('woff2'),
+         url('santakkum_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
