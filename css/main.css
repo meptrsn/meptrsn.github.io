@@ -1,20 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Yatra+One&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Alegreya&subset=latin-ext");
 
-@font-face {
-	font-family: santakkumregular;
-	src: url(../fonts/Santakku.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: elegant;
-	src: url(fonts/);
-	font-weight: normal;
-	font-style: normal;
-}
-
 header, section, footer, aside, nav, main, article, figure {
 	display: block;
 }
@@ -27,12 +13,6 @@ body {
 	background-color: #FFF8DC;
 	display: flex;
 	flex-direction: column;
-}
-
-#cuneiform {
-	font-family: "santakkumregular";
-	font-size: 25pt;
-	text-align: center;
 }
 
 nav {
