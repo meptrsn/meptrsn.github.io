@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Yatra+One&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Alegreya&subset=latin-ext");
+
+@font-face {
+	font-family: santakkumregular;
+	src: url(fonts/Santakku.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: elegant;
+	src: url(fonts/);
+	font-weight: normal;
+	font-style: normal;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #FFF8DC;
+	display: flex;
+	flex-direction: column;
+}
+
+#cuneiform {
+	font-family: "santakkumregular";
+	font-size: 25pt;
+	text-align: center;
+}
+
+nav {
+	position: fixed;
+	float: left;
+	width: 200pt;
+	padding-left: 3%;
+	top: 0;
+	bottom: 0;
+	background:#FFCC00;
+	z-index: 0;
+}
+
+section {
+	text-align: center;
+}
+
+nav a {
+	color: #303030;
+	font-family: "Alegreya",serif;
+	font-size: 20pt;
+	font-weight: 400;
+	line-height: 1.75em;
+	text-decoration: none;
+}
+
+ul {
+	color: #303030;
+	font-family: "Alegreya",serif;
+	font-size: 13pt;
+	font-weight: 400;
+	line-height: 1.75em;
+	text-decoration: none;
+}
+
+a.icon {
+	color: #303030;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #D0D0D0;
+}
+
+h1 {
+	font-family: "Yatra One", Helvetica, sans-serif;
+	color: #303030;	
+	font-size: 36pt;
+	line-height: 1.25em;
+}
+
+div.content p {
+	font-family: "Alegreya", serif;
+	font-size: 16pt;
+}
+
+ul.action li {
+	padding: 0.5em;
+	vertical-align: middle;
+	list-style:none;
+}
+
+div.content {
+	position: relative;
+	text-align: justify;
+	margin-left: 210pt;
+	max-width: 500pt;
+	padding: 5% 5% 5% 5%;
+}
+
+@media only screen and (max-width:925px) {
+	nav {
+		position: fixed;
+		float: none;
+		width: 100%;
+		height: 190pt;
+		padding: 0;
+		text-align: center;
+		opacity: 1.0;
+	}
+
+	nav ul.action > li {
+		display: inline-block;
+		margin: auto;
+		text-align: center;
+	}
+
+	nav ul.action {
+		margin: auto;
+		text-align: center;
+		padding: 0;
+	}
+
+	div.content {
+		width: 60%;
+		margin: auto;
+		padding: 1em;
+		text-align: justify;
+		margin-top: 190pt;
+		z-index: -1;
+	}
+}
