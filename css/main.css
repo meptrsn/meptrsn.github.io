@@ -11,8 +11,6 @@ html, body {
 
 body {
 	background-color: #fff8dc;
-	display: flex;
-	flex-direction: column;
 }
 
 nav {
@@ -37,6 +35,10 @@ nav a {
 	font-weight: 400;
 	line-height: 1.75em;
 	text-decoration: none;
+}
+
+h1.cunei {
+	text-align: center;
 }
 
 ul {
