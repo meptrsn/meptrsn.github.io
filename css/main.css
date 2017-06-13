@@ -5,10 +5,6 @@ header, section, footer, aside, nav, main, article, figure {
 	display: block;
 }
 
-html, body {
-	height: 100%;
-}
-
 body {
 	background-color: #fff8dc;
 }
@@ -19,6 +15,7 @@ nav {
 	width: 200pt;
 	top: 0;
 	bottom: 0;
+	left: 0;
 	background:#FFCC00;
 	z-index: 0;
 	padding-left: 3%;
